@@ -1,3 +1,10 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<!-- <script src="/js/highcharts.js"></script> -->
+<!-- <script type="scripts/"></script> -->
+<script type="Scripts/jquery-3.2.1.min"></script>
 Highcharts.chart('container', {
     chart: {
         type: 'spline',
@@ -54,3 +61,11 @@ Highcharts.chart('container', {
             [50, -2.5], [60, -27.7], [70, -55.7], [80, -76.5]]
     }]
 });
+</head>
+
+<body>
+<div id="container" style="width:100%; height:400px;"></div>
+
+
+</body>
+</html> 
